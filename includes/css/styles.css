@@ -1,0 +1,120 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+
+/* --------------------------------------
+   Layout
+-------------------------------------- */
+
+body
+{
+   background-image: url('../../images/mobb1.jpg');
+   background-size: cover;
+}
+
+
+#features img
+{
+   margin: 0 0 20px;
+}
+#features 
+{
+   text-align: center;
+   background-color: #F5FAFA;
+}
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   #SearchInput
+   {
+      width: 200px;
+   }
+   .navbar-brand
+   {
+      padding: 13px 15px;
+   }
+   
+   
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+/*#mycarousel .item
+{
+height: 400%;
+width: 100%;
+}*/
+
+
+/*#slide1
+{
+   background: url('../../images/slide-img-1.jpg')top center no-repeat;
+   background-size: 100% 100%;
+}
+#slide2
+{
+   background: url('../../images/slide-img-2.jpg')top center no-repeat;
+   background-size: 100% 100%;
+}
+#slide3
+{
+   background: url('../../images/slide-img-3.jpg')top center no-repeat;
+   background-size: 100% 100%;
+}*/
+#myCarousel
+{
+   margin-top: 50px;
+}
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+#bot
+{
+   background-color: gainsboro;
+}
+
+.panel
+{
+
+background-color: #F5FAFA;
+}
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+	
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	#mycarousel .item
+{
+height: 300%;
+}
+
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	#mycarousel .item
+{
+height: 500%;
+}
+
+
